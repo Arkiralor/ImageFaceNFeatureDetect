@@ -5,7 +5,7 @@
 
 import cv2
 
-img = cv2.imread("Image Samples/Sample_012.jpg", 1)
+img = cv2.imread("Path to image file", 1)
 
 print(img.shape)
 
