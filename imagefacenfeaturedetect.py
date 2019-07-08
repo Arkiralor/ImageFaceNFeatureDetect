@@ -1,3 +1,8 @@
+# NOTE: The included Cascade classifier apparently does NOT work well with dar-skinned individuals wearing white clothes
+# on a white background.
+
+# Classifier set provided by OpenCV @ https://github.com/opencv/opencv/tree/master/data/haarcascades
+
 import cv2
 
 img = cv2.imread("Image Samples/Sample_012.jpg", 1)
